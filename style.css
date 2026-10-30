@@ -6,7 +6,6 @@ body{
     border-radius: 5%;
     background-color: #F3F3F3;
     text-align: center;
-    
 }
 .tab tr{
     padding: 15px;
@@ -34,11 +33,6 @@ body{
 
 .tab tr:nth-child(even) td:nth-child(even) {
     background-color: #E7E7E7;
-}
-
-.tab tr td br{
-    font-size: 24px;
-    padding-top: 30px;
 }
 
 
@@ -69,4 +63,83 @@ body{
 }
 .tab tr:nth-child(1) td:nth-child(5) {
     background-color: #07153A;
+}
+
+.planb{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1000px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.plans tr td {
+    width: 288px;
+    height: 492px;
+    border: 2px solid #A8A8A8;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.plans tr td .title{
+    font-size: 20px;
+    padding-bottom:20px;
+    border-bottom: 4px solid red;
+}
+.plans tr td .dol{
+    padding:0;
+    margin:0;
+    font-size: 48px;
+}
+.plans tr td .per{
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    color: grey;
+}
+.plans tr td .buy{
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 10%;
+    width: 50px;
+    color: white;
+    background-color: red;
+}
+
+#plan1 .title{
+    font-size: 20px;
+    padding-bottom:20px;
+    border-bottom: 4px solid #C93555;
+}
+#plan2 .title{
+    font-size: 20px;
+    padding-bottom:20px;
+    border-bottom: 4px solid #D5923B;
+}
+#plan3 .title{
+    font-size: 20px;
+    padding-bottom:20px;
+    border-bottom: 4px solid #2D6588;
+}
+#plan4 .title{
+    font-size: 20px;
+    padding-bottom:20px;
+    border-bottom: 4px solid #68BA34;
+}
+
+#plan1 .buy{
+    background-color: #C93555;
+}
+#plan2 .buy{
+    background-color: #D5923B;
+}
+#plan3 .buy{
+    background-color: #2D6588;
+}
+#plan4 .buy{
+    background-color: #68BA34;
 }
